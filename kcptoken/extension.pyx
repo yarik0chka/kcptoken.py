@@ -141,7 +141,7 @@ cdef class KCP:
 
     def __init__(
         self,
-        long long conv_id,
+        uint64_t conv_id,
         int max_transmission = 1400,
         bool no_delay = False,
         int update_interval = 100,
